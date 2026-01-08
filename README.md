@@ -1,1 +1,1 @@
-* Stock Insight Analyzer
+# Stock Insight Analyzer 📊
