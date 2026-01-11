@@ -37,5 +37,5 @@
 
 ---
 
-### ‼️Disclaimer
+### ‼️ Disclaimer
 EquityLens is an independent analysis tool and is not financial advice. It is not affiliated with any financial institution or data provider.
