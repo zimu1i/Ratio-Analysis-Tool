@@ -161,7 +161,9 @@ if ticker:
         valid_scores = [score_map[r["Insight"]] for r in result if r["Insight"] in score_map]
         average_score = sum(valid_scores) / len(valid_scores)
 
+        # -------------------
         # group results by category
+        # -------------------
         grouped_results = {}
         for r in result:
             cat = ratios[r["Ratio"]]["category"]
@@ -184,7 +186,9 @@ if ticker:
         st.subheader("Final Verdict")
         st.success(overall)
 
-        # summary
+        # -------------------
+        # summary counts
+        # -------------------
         summary_counts = {
             "Positive": sum(1 for rows in grouped_results.values() for r in rows if r["Insight"] == "Positive"),
             "Neutral": sum(1 for rows in grouped_results.values() for r in rows if r["Insight"] == "Neutral"),
