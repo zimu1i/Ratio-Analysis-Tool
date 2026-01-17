@@ -1,6 +1,6 @@
-# 📈 EquityLens
+# 📈 Stock Ratio Analysis Tool
 
-**EquityLens** is a stock analysis platform for technical investors. It calculates **12+ financial ratios** across multiple categories — **Valuation, Profitability, Leverage, and Liquidity** — and delivers a **final verdict using a weighted scoring system**, providing actionable insights tailored to different investor profiles.
+This is a stock analysis platform for technical investors. It calculates **12+ financial ratios** across multiple categories — **Valuation, Profitability, Leverage, and Liquidity** — and delivers a **final verdict using a weighted scoring system**, providing actionable insights tailored to different investor profiles.
 
 ---
 
