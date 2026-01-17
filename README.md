@@ -75,8 +75,15 @@ pip install streamlit yfinance pandas numpy matplotlib reportlab
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/zimu1i/Ratio-Analysis-Tool
+cd Ratio-Analysis-Tool
 ```
-### 2️⃣ Run the app
+
+### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the app
 
 ```bash
 streamlit run app.py
