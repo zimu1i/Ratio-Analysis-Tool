@@ -1,10 +1,10 @@
-# 📊 Stock Ratio Analysis Tool
+# Stock Ratio Analysis Tool
 
 A stock analysis app that evaluates companies using 12+ financial ratios across valuation, profitability, leverage, and liquidity. It gives you personalized recommendations based on your risk tolerance. 
 
-#### 👩🏻‍💻 Inspired by my coursework COMM101 (University of Waterloo)!
+#### Inspired by my coursework COMM101 (University of Waterloo)!
 
-### ℹ️ **What It Does:**
+### **What It Does:**
 This Streamlit app pulls real-time financial data from Yahoo Finance and calculates key financial ratios. It turns raw numbers into actual investment insights.
 
 **Features:**
@@ -14,7 +14,7 @@ This Streamlit app pulls real-time financial data from Yahoo Finance and calcula
 - Weights different ratios based on your risk tolerance
 - Generates PDF reports you can save or share
 
-## 🛠️ Built With
+## Built With
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 [![yfinance](https://img.shields.io/badge/yfinance-Download-blue?logo=yahoo)](https://pypi.org/project/yfinance/)
@@ -23,15 +23,15 @@ This Streamlit app pulls real-time financial data from Yahoo Finance and calcula
 [![matplotlib](https://img.shields.io/badge/matplotlib-Plotting-blue?logo=matplotlib)](https://pypi.org/project/matplotlib/)
 [![reportlab](https://img.shields.io/badge/reportlab-PDF%20Generation-blue?logo=python)](https://pypi.org/project/reportlab/)
 
-## 📌 Project Details
+## Project Details
 
-### 👤 Investor Profiles
+### Investor Profiles
 Pick Conservative, Balanced, or Growth-Oriented. Your choice changes how ratios are weighted and what recommendations you get.
 
-### 💹 Stock Tickers
+### Stock Tickers
 Works with any ticker on Yahoo Finance. Just enter the symbol and it fetches everything automatically!
 
-### 📊 Financial Ratio Analysis
+### Financial Ratio Analysis
 
 | Category        | Ratio               | Description                               | Preference        |
 |-----------------|-------------------|-------------------------------------------|-----------------|
@@ -48,10 +48,10 @@ Works with any ticker on Yahoo Finance. Just enter the symbol and it fetches eve
 | **Liquidity**   | Quick Ratio       | Liquid assets relative to current liabilities | Higher is better |
 |                 | Current Ratio     | Current assets relative to current liabilities | Higher is better |
 
-### 🏆 Scoring System
+### Scoring System
 Combines all ratios based on your profile and gives you a final verdict on whether the stock looks good.
 
-### 📄 PDF Reports
+### PDF Reports
 Download reports with:
 - Company info (sector, industry, market cap)
 - All ratios with their values and what they mean
@@ -60,7 +60,7 @@ Download reports with:
 - Strengths and risks
 - Final recommendation
 
-## 📦 Installation & Usage
+## Installation & Usage
 
 ### What You Need
 ```bash
@@ -84,13 +84,13 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-### 👩🏻‍💻 How to use it
+### How to use it
 1. Enter a stock ticker (like AAPL, MSFT, etc.)
 2. Pick your investor profile
 3. Review the analysis and ratios
 4. Download a PDF if you want to keep it
 
-### ‼️ Disclaimer
+### Disclaimer
 This is just an educational tool, not financial advice.
 
 - I built this independently, it's not affiliated with any financial institution
